@@ -1,0 +1,29 @@
+.AppStyle {
+    display: grid;
+    grid-template-rows: min-content min-content auto;
+    grid-template-areas:
+        "nova-tarefa nova-tarefa ."
+        "tarefas . ."
+    ;
+    row-gap: 24px;
+    min-width: 380px;
+    min-height: calc(105vh - 32px);
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    background-color: #171717;
+
+    @media screen and (min-width:1280px) {
+        grid-template-areas:
+        "nova-tarefa nova-tarefa ."
+        "tarefas . ."
+        ;
+        column-gap: 30px;
+        grid-template-rows: min-content min-content;
+        grid-template-columns: 700px 300px;
+        justify-content: center;
+        align-content: center;
+        padding-top: 1px;
+    }
+}
