@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="bought">Cancelar</string>
+    <string name="not_bought">Ok</string>
+</resources>
