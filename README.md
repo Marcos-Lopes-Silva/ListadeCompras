@@ -1,2 +1,5 @@
 # Lista de Compras
-Projeto com REACT para uma lista de compras
+Language: Java
+
+
+- Projeto Android para uma lista de compras.
